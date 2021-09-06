@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mp4-to-hls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomdeniz/nodejs-mp4-to-hls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomdeniz/nodejs-mp4-to-hls/issues"
+  },
+  "homepage": "https://github.com/atomdeniz/nodejs-mp4-to-hls#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
