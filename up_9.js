@@ -3,16 +3,14 @@ const random_Md = require('./randomCreateFole.js');
 
 
 const listUrlGit = 
-`https://wuwestern:Cy5grq0ah0ZZ0@bitbucket.org/wuwestern/1idlj252l5zqez1bjvol0lht64v1.git
-https://fq4nd6xUZf10c:fq4nd6xUZf10c@bitbucket.org/fq4nd6xUZf10c/cuztpmxlw1vv9xc99g7yjwcy59.git
-https://odesahcraigdesk:WVMhZhDzY5Ucmti@bitbucket.org/odesahcraigdesk/xi2ww29w4qnfaftu9thdr2kkybg3.git
-https://mr_jannyking1999:bUDz175IgqFJE@bitbucket.org/mr_jannyking1999/a5k0ahmauxdcr05nlzdfvaaoita.git
-https://generalrodriguezcommander:Pzc5aINwB5JWd@bitbucket.org/generalrodriguezcommander/9xd9je726j43i4p41a9tddyc79l.git
-https://jamescome:DbgNEizQFJz8D@bitbucket.org/jamescome/idf809d404k06udsdge2025c2.git
-https://djibrilfelix52:CGuvWb9A0cOO3@bitbucket.org/djibrilfelix52/ve17jdlpayil4rj15c9o58a3yzpam.git
-https://happynast:ioqnYylipW1@bitbucket.org/happynast/bcrsf6etlbmcwgtx17g9t0jf4b.git
-https://walevcxakande2010:XSOkxxMagKT4@bitbucket.org/walevcxakande2010/ecbm6aei74r50r9ad4p09bhdg795vc.git
-https://tomroland771999:M2WZSFqaHT848K5@bitbucket.org/tomroland771999/10d8odlgmn53giex9z4ukk9njkh.git`;
+`https://anlytcphil:vLbD5FrbC7Pt@bitbucket.org/anlytcphil/anlytcphil.git
+https://molurtina:8cd4g9j8cJjhj@bitbucket.org/molurtina/molurtina.git
+https://johnlindal001:Vfr2pQUL7v@bitbucket.org/johnlindal001/johnlindal.git
+https://ebrahim-sido22:KWDu3MvH0D34U17@bitbucket.org/ebrahim-sido22/ebrahim-sido22.git
+https://alhassnekeita2007:vLkb1kFyWE2EW@bitbucket.org/alhassnekeita2007/alhassnekeita2007.git
+https://andrispa:1cBKrSaieSv4@bitbucket.org/andrispa/andris.git
+https://sjafrudinrd001:dpzai1jaqnbXke@bitbucket.org/sjafrudinrd001/sjafrudinrd001.git
+https://myfileoffi:s5OnjPPuT7MFi4K@bitbucket.org/myfileoffi/myfileoffi.git`;
 
 
 const getUrl = listUrlGit.split(/\r|\n/);
