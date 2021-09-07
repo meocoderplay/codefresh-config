@@ -10,10 +10,11 @@ https://dipjsc0004:YZhQHQtZ9gg@bitbucket.org/dipjsc0004/1gpi4ctk5ga2c5wzdqplfwik
 https://irarubosh:9I3GlMfQPu5y@bitbucket.org/irarubosh/5q0jj8ep8fdnkgpn2g74y3jrnxh.git
 https://webdieliz:O8IEVcc9jmAL@bitbucket.org/webdieliz/lz5wp32lx09pb60k289ci2g1quby.git
 https://hrzig:prbu3HsKiAQg@bitbucket.org/hrzig/ikf6smk22ooybsyzn0rf3h1sp2a.git
-https://jamaibinumbere1999:1Vz6yAUcNtal8q@bitbucket.org/jamaibinumbere1999/fowh2r32979b30uqiaqo6rd7652.git`;
+https://jamaibinumbere1999:1Vz6yAUcNtal8q@bitbucket.org/jamaibinumbere1999/fowh2r32979b30uqiaqo6rd7652.git
+https://jenfferstani:J6I0eA6ALBDtaF8@bitbucket.org/jenfferstani/jenfferstani.git
+https://smithalwel:OE4GfsBVSUV@bitbucket.org/smithalwel/smithalwel.git`;
 
 
-// thieu 2 acc
 
 const getUrl = listUrlGit.split(/\r|\n/);
 
