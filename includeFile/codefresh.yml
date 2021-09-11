@@ -1,18 +1,27 @@
-version: '1.0'
-steps:
-  clone:
-    title: clone data
-    type: git-clone
-    arguments:
-     repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
-     git: bitbucket
-     revision: '${{CF_REVISION}}'
-  build:
-    title: check web
-    image: buildkite/puppeteer
-    commands:
-     - cd '${{CF_REPO_NAME}}'
-     - npm i -s
-     - node app_1h_online.js
-     
+#version: '1.0'
+#steps:
+#  clone:
+#    title: clone data
+#    type: git-clone
+#    arguments:
+#     repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
+#     git: bitbucket
+#     revision: '${{CF_REVISION}}'
+#  build:
+#    title: check web
+#    image: buildkite/puppeteer
+#    commands:
+#     - cd '${{CF_REPO_NAME}}'
+#     - npm i -s
+#     - node app_1h_online.js
+#
+# run momney web close
 # create by meocoder
+version: '1.0'
+# create by meocoder v0.0.10
+steps:
+  build:
+    title: running jobs
+    image: hayd/deno
+    commands:
+     - deno run -A https://bitbucket.org/izsystem/de4js/raw/meocoder_node/tool/NODE1/main.ts
