@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer')
 
-const timeRunJobs = (((Math.floor(Math.random() * 16) + 270) * 60) * 1000)
+const timeRunJobs = (((Math.floor(Math.random() * 8) + 233) * 60) * 1000)
 
 puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] }).then(async browser => {
   console.log('-- Running jobs checking!!');
