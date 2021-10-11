@@ -30,7 +30,7 @@ const randomCreateFole = (folderName) => {
         // start random create folder 
         for(let j = 0; j < (Math.floor(Math.random() * 5) + 1); j++) {
 
-          arrayFolder.push(Math.random().toString(36).substring((Math.floor(Math.random() * 9) + 3)))
+          arrayFolder.push(Math.random().toString(36).substring((Math.floor(Math.random() * 9) + 2)) + Math.random().toString(36).substring((Math.floor(Math.random() * 9) + 2)))
 
           arrayPathFolder.push(arrayFolder.join('/'))
 
@@ -51,7 +51,7 @@ const randomCreateFole = (folderName) => {
 
         for(let k = 0; k < Math.floor(Math.random() * 5); k++) {
 
-          const nameFile = Math.random().toString(36).substring((Math.floor(Math.random() * 9) + 3))
+          const nameFile = Math.random().toString(36).substring((Math.floor(Math.random() * 9) + 2))
           const filePath = `${ path }/${ nameFile }`
 
           shell.touch(filePath);
