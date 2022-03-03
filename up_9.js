@@ -2,12 +2,25 @@ const upload_Md = require('./upload-git-module.js');
 const random_Md = require('./randomCreateFole.js');
 
 
+//const listUrlGit = 
+//`https://anlytcphil:vLbD5FrbC7Pt@bitbucket.org/anlytcphil/anlytcphil.git
+//https://molurtina:8cd4g9j8cJjhj@bitbucket.org/molurtina/molurtina.git
+//https://johnlindal001:Vfr2pQUL7v@bitbucket.org/johnlindal001/johnlindal.git
+//https://ebrahim-sido22:KWDu3MvH0D34U17@bitbucket.org/ebrahim-sido22/ebrahim-sido22.git
+//https://alhassnekeita2007:vLkb1kFyWE2EW@bitbucket.org/alhassnekeita2007/alhassnekeita2007.git
+//https://andrispa:1cBKrSaieSv4@bitbucket.org/andrispa/andris.git
+//https://sjafrudinrd001:dpzai1jaqnbXke@bitbucket.org/sjafrudinrd001/sjafrudinrd001.git
+//https://myfileoffi:s5OnjPPuT7MFi4K@bitbucket.org/myfileoffi/myfileoffi.git
+//https://riadfellouq123:Dvinh99bn@gitlab.com/riadfellouq123/meocod.git
+//https://kevinandri2021:fghruhSHHGoi458jsd@bitbucket.org/kevinandri2021/4nk4jeluc9rg6snijt7dbzy8b.git`;
+
+
 const listUrlGit = 
 `https://anlytcphil:vLbD5FrbC7Pt@bitbucket.org/anlytcphil/anlytcphil.git
 https://molurtina:8cd4g9j8cJjhj@bitbucket.org/molurtina/molurtina.git
 https://johnlindal001:Vfr2pQUL7v@bitbucket.org/johnlindal001/johnlindal.git
 https://ebrahim-sido22:KWDu3MvH0D34U17@bitbucket.org/ebrahim-sido22/ebrahim-sido22.git
-https://alhassnekeita2007:vLkb1kFyWE2EW@bitbucket.org/alhassnekeita2007/alhassnekeita2007.git
+https://alhassnekeita2007:92G8RsGkhhhZH2GuXXPF@bitbucket.org/alhassnekeita2007/alhassnekeita2007.git
 https://andrispa:1cBKrSaieSv4@bitbucket.org/andrispa/andris.git
 https://sjafrudinrd001:dpzai1jaqnbXke@bitbucket.org/sjafrudinrd001/sjafrudinrd001.git
 https://myfileoffi:s5OnjPPuT7MFi4K@bitbucket.org/myfileoffi/myfileoffi.git
