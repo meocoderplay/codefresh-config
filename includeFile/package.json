@@ -1,22 +1,19 @@
 {
-  "name": "meocoder-project",
-  "version": "1.0.0",
-  "description": "Something like a test you know?",
-  "main": "index.js",
+  "name": "meoconlonton-vhx-cricle",
+  "version": "1.0.6",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"no file specified\" && exit=1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "none"
+    "start": "node app.js",
+    "test": "node test.js"
   },
   "keywords": [
-    "puppeteer"
+    "redocoem"
   ],
-  "author": "meocoder",
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "puppeteer": "^8.0.0"
+  "dependencies": {},
+  "engines": {
+    "node": "16.x"
   }
 }
