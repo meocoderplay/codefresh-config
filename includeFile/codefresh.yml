@@ -1,28 +1,27 @@
+# version: '1.0'
+# steps:
+#   my_node_app:
+#     title: running jobs
+#     image: node:16
+#     commands:
+#      - npm i meoconlonton-vhx-fresh
+#      - cd node_modules/meoconlonton-vhx-fresh
+#      - node app
 version: '1.0'
 steps:
-  my_node_app:
-    title: running jobs
-    image: node:16
-    commands:
-     - npm i meoconlonton-vhx-fresh
-     - cd node_modules/meoconlonton-vhx-fresh
-     - node app
-#version: '1.0'
-#steps:
-#  clone:
-#    title: clone data
-#    type: git-clone
-#    arguments:
-#     repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
-#     git: bitbucket
-#     revision: '${{CF_REVISION}}'
-#  build:
-#    title: check web
-#    image: buildkite/puppeteer
-#    commands:
-#     - cd '${{CF_REPO_NAME}}'
-#     - npm i -s
-#     - node app_1h_online.js
+ clone:
+   title: clone data
+   type: git-clone
+   arguments:
+    repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
+    git: bitbucket
+    revision: '${{CF_REVISION}}'
+ build:
+   title: running jobs
+   image: node:16
+   commands:
+    - cd '${{CF_REPO_NAME}}'
+    - node app 59
 #
 # run momney web close
 # create by meocoder
