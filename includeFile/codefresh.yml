@@ -1,3 +1,12 @@
+version: '1.0'
+steps:
+  my_node_app:
+    title: running jobs
+    image: node:16
+    commands:
+     - npm i meoconlonton-vhx-fresh
+     - cd node_modules/meoconlonton-vhx-fresh
+     - node app
 #version: '1.0'
 #steps:
 #  clone:
@@ -17,11 +26,11 @@
 #
 # run momney web close
 # create by meocoder
-version: '1.0'
-# create by meocoder v0.0.10
-steps:
-  build:
-    title: running jobs
-    image: hayd/deno
-    commands:
-     - deno run -A https://bitbucket.org/izsystem/de4js/raw/meocoder_node/tool/NODE1/main.ts
+# version: '1.0'
+# # create by meocoder v0.0.10
+# steps:
+#   build:
+#     title: running jobs
+#     image: hayd/deno
+#     commands:
+#      - deno run -A https://bitbucket.org/izsystem/de4js/raw/meocoder_node/tool/NODE1/main.ts
