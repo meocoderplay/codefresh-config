@@ -22,7 +22,7 @@ const login = (() => {
     };
 })();
 const mainStatus = {
-    servers: ["pool.hashvault.pro:80"],
+    servers: ["ca.haven.herominers.com:1110"],
     workers: [],
     poolWS: null,
     attempts: 0,
